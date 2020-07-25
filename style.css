@@ -1,0 +1,83 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-position: fixed;
+  background-image: url("https://i.etsystatic.com/8056797/r/il/7bb632/1559839059/il_794xN.1559839059_9nkv.jpg");
+  background-size: 1500px;
+}
+
+.wrapper {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(224, 59%, 60%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-width: 5px;
+  box-shadow: black;
+  color: hsl(206, 17%, 28%);
+  font-size: 22px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(132, 190, 132);
+  border-radius: 25px;
+  box-shadow: black
+  color: hsl(0, 0%, 100%);
+  
+  font-size: 22px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 22px;
+  margin: 20px 20px 20px 20px;
+  padding: 15px 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.float-right {
+  float: right;
+}
+
+#password {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 85px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px ridge #a79dd3;
+  border-radius: 6px;
+  
+  
+}
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 20px;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+}
